@@ -35,10 +35,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'glucosetracker',
-        'USER': 'glucosetracker',
-        'PASSWORD': 'password',
+        'USER': 'coiy',
+        'PASSWORD': 'johan925',
         'HOST': os.getenv('POSTGRESQL_HOST', 'localhost'),
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
